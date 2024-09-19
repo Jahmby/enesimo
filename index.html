@@ -8,10 +8,24 @@
     <body style="background-color: powderblue;">
         <h1>This is a heading</h1>
         <p title="This is a tooltip for a paragraph">This is a paragraph.</p>
-        <a href="https://github.com/Jahmby/enesimo">This is a link to my Github repository</a>
+        <!--
+            The target attribute in the link tags determine where to open that link. By default is set to _self
+            _self - Default. Opens the document in the same window/tab as it was clicked
+            _blank - Opens the document in a new window or tab
+            _parent - Opens the document in the parent frame
+            _top - Opens the document in the full body of the window
+        -->
+        <a href="https://github.com/Jahmby/enesimo" target="_blank">
+            This is a link to my Github repository
+        </a>
+        <!--It's is possible to use different elements as links, for exampe images-->
+        <a href="https://www.lofi.cafe/" target="_blank">
         <img src="imgs/test.png" alt="Rainy day trees view from under a cealing" width="1000" height="539">
+        </a>
+        <!--Use mailto: inside the href attribute to create a link that opens the user's email program-->
+        <a href="maito:jamby85@hotmail.com">Send email</a>
         <p style="color: blue;">This is a blue paragraph</p>
-
+        <!-- This is a comment -->
         <p style="background-color: papayawhip;">
             Headings, are importatnt for the search engines as they use them to index the results. <br>
             They go from h1 to h6 being h1 the most imporant and h6 the least. <br>
