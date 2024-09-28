@@ -10,3 +10,21 @@ p {
 h1, h2, h3, h4, h5, h6 {
     color: aliceblue;
 }
+tr {
+    color: aliceblue;
+}
+tr, td, th {
+    border: 2px solid darkgreen;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+table {
+    width: 60%;
+}
+img {
+    border: 5px solid darkgreen;
+    border-radius: 20px;
+    width : 500px;
+    height : 270px;
+    float: right;
+}
