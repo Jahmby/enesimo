@@ -16,10 +16,19 @@ tr {
 tr, td, th {
     border: 2px solid darkgreen;
     border-collapse: collapse;
-    border-radius: 10px;
+    border-radius: 8px;
+    width: 500px;
+    padding: 15px;
 }
+tr:nth-child(even) {
+    background-color: darkgreen 0.50%;
+}
+
 table {
     width: 60%;
+}
+caption {
+    color: aliceblue;
 }
 img {
     border: 5px solid darkgreen;
