@@ -18,10 +18,11 @@ tr, td, th {
     border-collapse: collapse;
     border-radius: 8px;
     width: 500px;
-    padding: 15px;
+    padding: 15px; 
 }
-tr:nth-child(even) {
-    background-color: darkgreen 0.50%;
+
+tr:hover {
+    background-color: hsl(121, 39%, 61%);
 }
 
 table {
