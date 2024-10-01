@@ -22,11 +22,20 @@ tr, td, th {
 }
 
 tr:hover {
-    background-color: hsl(121, 39%, 61%);
+    background-color: hsl(121, 50%, 50%);
 }
 
 table {
     width: 60%;
+}
+li {
+    color: aliceblue;
+}
+ul {
+    list-style-type: square;
+}
+ol {
+    list-style-type: lower-alpha;
 }
 caption {
     color: aliceblue;
