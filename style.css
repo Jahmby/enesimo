@@ -4,10 +4,6 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
-div {
-    width: 500px;
-    margin: auto;
-}
 p {
     color: aliceblue;
 }
@@ -31,6 +27,19 @@ tr:hover {
 
 table {
     width: 60%;
+}
+/*
+Using the float atribute to place <div> containers besides of each other instead of on top
+*/
+div.mycontainer {
+    /*Main div containing other div elemetns*/
+    width: 100%;
+    overflow: auto;
+}
+div.mycontainer div {
+    /*Div elements nested inside another div element*/
+    width: 33%;
+    float: left;
 }
 li {
     color: aliceblue;
