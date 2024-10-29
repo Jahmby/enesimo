@@ -21,6 +21,14 @@ tr, td, th {
     padding: 15px; 
 }
 
+/*Styling an id attribute 👇*/
+#myHeader {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+
 tr:hover {
     background-color: hsl(121, 50%, 50%);
 }
