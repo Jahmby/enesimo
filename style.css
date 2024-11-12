@@ -71,3 +71,8 @@ img {
     height : 270px;
     float: right;
 }
+iframe {
+    width: 50%;
+    height: auto;
+    border: none;
+}
